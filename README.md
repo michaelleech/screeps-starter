@@ -10,4 +10,6 @@ rename the screeps-starter folder to "default" (remove the old default folder)
 
 `npm start`
 
-Open up main.ts and get crackin'
+Open up src/main.ts and get crackin'
+
+variables defined outside the `loop` function in main.ts will be cached and not re-declared every game tick
