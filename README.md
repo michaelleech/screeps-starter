@@ -1,6 +1,6 @@
 # Screeps starter!
 
-navigate to "~/Library/Application Support/Screeps/scripts/{ server_location }"
+navigate to `~/Library/Application\ Support/Screeps/scripts/{ server_location }`
 
 `git clone (URL to your fork of this repo)`
 
