@@ -8,6 +8,6 @@ rename the screeps-starter folder to "default" (remove the old default folder)
 
 `npm install`
 
-`npm run build`
+`npm start`
 
 Open up main.ts and get crackin'
