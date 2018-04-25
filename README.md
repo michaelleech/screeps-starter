@@ -1,10 +1,10 @@
 # Screeps starter!
 
-navigate to "~/Library/Application Support/Screeps/scripts/{server_location}"
+navigate to "~/Library/Application Support/Screeps/scripts/{ server_location }"
 
-`git clone (this repo)`
+`git clone (URL to your fork of this repo)`
 
-rename this folder to "default"
+`mv screeps-starter default`
 
 `npm install`
 
