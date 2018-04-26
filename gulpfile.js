@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var ts = require('gulp-typescript');
 
 gulp.task('transpile', function () {
-    return gulp.src('src/*.ts')
+    return gulp.src('src/**/*.ts')
         .pipe(ts({
             noImplicitAny: true,
         }))
@@ -10,7 +10,7 @@ gulp.task('transpile', function () {
 });
 
 gulp.task('watch', function () {
-    gulp.watch(['./src/*.ts'], ['transpile']);
+    gulp.watch(['./src/**/*.ts'], ['transpile']);
 });
 
 gulp.task('default', ['transpile', 'watch'], function () { });
